@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <title>Equipos</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="./icons/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><i class="fa-solid fa-house"></i> Home</li>
+            <li style="background: black; color: white; cursor: default"><i class="fa-solid fa-desktop"></i> Equipo</li>
+            <li><i class="fa-solid fa-user"></i> Usuario</li>
+            <li><i class="fa-solid fa-gear"></i> Configuracion</li>
+            <li><i class="fa-solid fa-chart-line"></i> Estadistica</li>
+        </ul>
+    </div>
+    <div class="contenedor">
+        <div class="nav-superior">
+            <div class="perfil">
+                <img class="foto-perfil" src="./perfil.jpg" alt="">
+                <p>Rodrigo Bañagasta F.</p>
+            </div>
+            <div class="buscar">
+                <div class="input-buscar">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                    </svg>
+                    <!-- <i class="fa-solid fa-magnifying-glass" class="icon-search"></i> -->
+                    <input type="text" class="input" placeholder="Buscar">
+                </div>
+                <p class="icono-general pointer"><i class="fa-solid fa-bell" ></i></p>
+                <p class="icono-general pointer"><i class="fa-solid fa-moon"></i></p>
+            </div>
+        </div>
+        <div class="caja">
+            <div class="cajas activo">
+                <div class="caja-titulo">
+                    <div class="punto-Activo"></div><p>Activos</p>
+                </div>
+                <div class="contenedor-equipo">
+                    <div class="equipo">
+                        <div class="icono mr-2">
+                            <h1><i class="fa-solid fa-desktop"></i></h1>
+                        </div>
+                        <div class="w-100">
+                            <div>
+                                <p><b><a href="#miModal" class="text-decoration-none">MXL2150ZPZ</a></b></p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>TBGRGAFSI002</div>
+                                <div>Windows 7</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="equipo">
+                        <div class="icono mr-2">
+                            <h1><i class="fa-solid fa-print"></i></h1>
+                        </div>
+                        <div class="w-100">
+                            <div>
+                                <p><b>XDKJ3TBC9DH</b></p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Sistemas</div>
+                                <div>OS Printer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="equipo">
+                        <div class="icono mr-2">
+                            <h1><i class="fa-solid fa-laptop"></i></h1>
+                        </div>
+                        <div class="w-100">
+                            <div>
+                                <p><b>MXL25HI5</b></p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <div>TBSIGAFSI001</div>
+                                <div>Windows 10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="equipo">
+    
+                    </div>
+                    <div class="equipo">
+    
+                    </div>
+                    <div class="equipo">
+    
+                    </div>
+                    <div class="equipo">
+    
+                    </div>
+                </div>
+            </div>
+            <div class="cajas free">
+                <div class="caja-titulo">
+                    <div class="punto-free"></div><p>Free</p>
+                </div>
+            </div>
+            <div class="cajas almacen">
+                <div class="caja-titulo">
+                    <div class="punto-almacen"></div><p>Almacen</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="miModal" class="modal d-flex align-items-center">
+        <div class="modal-contenido">
+        <div class="cerrar">
+            <div><a href="#" class="text-decoration-none"><i class="fa-solid fa-xmark"></i></a></div>
+        </div>
+          <h2>Mi primer Modal</h2>
+          <p>Este es mi primera ventana modal sin utilizar JavaScript.</p>
+        </div>  
+    </div>
+</body>
+</html>

@@ -19,7 +19,7 @@ class Server{
     }
 
     router(){
-
+        
     }
 
     listen(){
